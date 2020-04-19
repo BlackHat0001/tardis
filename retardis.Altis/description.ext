@@ -1,0 +1,10 @@
+class CfgSounds
+{
+sounds[] = {};
+class tardisDoor
+{
+	name = "my_wolf_sound"; // how the sound is referred to in the editor (e.g. trigger effects)
+	sound[] = {"core\sfx\tardisDoor.ogg", 1, 1}; 	// filename, volume, pitch
+	titles[] = {};
+};
+};
